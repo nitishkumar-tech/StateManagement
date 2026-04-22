@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cookie-1.aspx" />
+    <Content Include="Cookie-2.aspx" />
     <Content Include="QueryString-2.aspx" />
     <Content Include="QueryString.aspx" />
     <Content Include="Session-1.aspx" />
@@ -75,6 +77,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cookie-1.aspx.cs">
+      <DependentUpon>Cookie-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie-1.aspx.designer.cs">
+      <DependentUpon>Cookie-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie-2.aspx.cs">
+      <DependentUpon>Cookie-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie-2.aspx.designer.cs">
+      <DependentUpon>Cookie-2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryString-2.aspx.cs">
       <DependentUpon>QueryString-2.aspx</DependentUpon>
